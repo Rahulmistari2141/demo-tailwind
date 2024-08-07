@@ -16,7 +16,6 @@ const routes: Routes = [
     loadChildren: () => import('./layouts/secure/secure.module').then(m => m.SecureModule) 
   },
   
-  
 ];
 
 @NgModule({
